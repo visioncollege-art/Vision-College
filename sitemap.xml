@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://sitemaps.org">
-   <url>
-      <loc>https://visioncollege-art.github.io/Vision-College/</loc>
-      <lastmod>2026-07-08</lastmod>
-      <priority>1.00</priority>
-   </url>
-   <url>
-      <loc>https://github.io</loc>
-      <lastmod>2026-07-08</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://github.io</loc>
-      <lastmod>2026-07-08</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <url>
-      <loc>https://github.io</loc>
-      <lastmod>2026-07-08</lastmod>
-      <priority>0.80</priority>
-   </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://visioncollege-art.github.io/Vision-College/index.html</loc>
+  </url>
+  <url>
+    <loc>https://visioncollege-art.github.io/Vision-College/courses.html</loc>
+  </url>
+  <url>
+    <loc>https://visioncollege-art.github.io/Vision-College/enroll.html</loc>
+  </url>
+  <url>
+    <loc>https://visioncollege-art.github.io/Vision-College/about.html</loc>
+  </url>
+  <url>
+    <loc>https://visioncollege-art.github.io/Vision-College/contact.html</loc>
+  </url>
 </urlset>
-
