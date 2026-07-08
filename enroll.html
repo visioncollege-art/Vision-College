@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <link rel="icon" type="image/x-icon" href="/Images/icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="./index.html" aria-label="vision College Logo"><i class="fa-solid fa-graduation-cap"></i></a>
+            </div>
+            <ul id="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./courses.html">Courses</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+             <button class="navbar-menu" aria-label="Menu-Bar" >
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+
+        <div class="heading-h1">
+                <h1>Sign up for this programme</h1>
+        </div>
+    </header>
+
+
+    <section class="sign-up">
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="edf4e80f-df42-42ea-962e-32209c92f7d9">
+            <label for="fullname">Full name</label>
+            <input type="text" name="text" placeholder="Full name" required>
+            <label for="phone">Phone number</label>
+            <input type="tel" placeholder="Phone number" name="phone" id="">
+            <label for="email">Email address</label>
+            <input type="email" name="email" placeholder="Email address" required>
+            <label for="Select" id="select" >Select Course</label>
+
+            <div id="label" class="one" >
+                <input type="radio" name="Course" value="Computer Packages" id="radio">
+                <label for="course">Computer Packages</label>
+            </div>
+            <div id="label">
+                <input type="radio" name="Course" value="Graphic Design" id="radio">
+                <label for="design">Graphic Design</label>
+            </div>
+
+            <div id="label">
+                <input type="radio" name="radio" value="Web Development" id="radio">
+                <label for="web">Web Development</label>
+            </div>
+            
+            
+            
+            <button class="btn message" type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+<footer>
+        <div class="footer-container">
+        <div class="logo">
+            <a href="index.html" aria-label="vision College Logo"><i class="fa-solid fa-graduation-cap"></i></a>
+        </div>
+
+        <div class="links">
+            <h3>Useful Links</h3>
+
+                <ul class="inner-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About us</a></li>
+                    <li><a href="./courses.html">Our Courses</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
+
+        </div>
+       
+
+        </div>
+
+        <div class="socials">
+            <p>Check Our Social Media</p>
+           <div class="icons">
+                <a href="https://www.tiktok.com/@visioncollege" target="_blank" ><i class="fa-brands fa-tiktok" aria-label="tiktok logo"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61592013050023" target="_blank" ><i class="fa-brands fa-facebook-f" aria-label="Facebook logo"></i></a>
+                <a href="https://www.youtube.com/@visioncollege0032" target="_blank" ><i class="fa-brands fa-youtube" aria-label="youtube logo"></i></a>
+                
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="copy">
+            <p> Copyright &copy; Vision College 2026.All rights reserved</p>        </div>
+
+    </footer>
+    
+
+    <script src="./script.js" type="module"></script>   
+</body>
+</html>
